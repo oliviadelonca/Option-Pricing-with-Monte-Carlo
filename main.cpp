@@ -45,7 +45,7 @@ int main() {
 
         // Strategy computation
         double delta = StrategyReplication::delta(*opt);
-        double valportfolio = StrategyReplication::valeurPortefeuille(*opt, S);
+        double valportfolio = StrategyReplication::PortfolioValue(*opt, S);
 
         std::cout << ">> REPLICATION STRATEGY :" << std::endl;
         std::cout << "   - Delta (Quantity to hold) : " << delta << std::endl;
