@@ -1,12 +1,12 @@
 #pragma once
 #include "Option.h"
 
-class AmericanOption : public Option {
+class EuropeanOption : public Option {
 public:
-    AmericanOption(double S_, double K_, double T_, double r_, double sigma_, bool isCall_); 
-    AmericanOption(const AmericanOption& other); 
-    AmericanOption& operator=(const AmericanOption& other); 
-    virtual ~AmericanOption();
+    EuropeanOption(double S_, double K_, double T_, double r_, double sigma_, bool isCall_); 
+    EuropeanOption(const EuropeanOption& other); 
+    EuropeanOption& operator=(const EuropeanOption& other); 
+    virtual ~EuropeanOption(); 
 
     virtual double prix() override;
     virtual double delta() override;
