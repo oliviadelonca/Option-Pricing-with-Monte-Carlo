@@ -125,11 +125,11 @@ double MonteCarlo::delta(const Option& option, int nSimulations) {
                          option.getIsCall());
 
     AmericanOption optDown(option.getS() - h, 
-                           option.getK(), 
-                           option.getT(), 
-                           option.getR(), 
-                           option.getSigma(), 
-                           option.getIsCall());
+                          option.getK(), 
+                          option.getT(), 
+                          option.getR(), 
+                          option.getSigma(), 
+                          option.getIsCall());
 
     // Compute the price difference
     double priceUp = prix(optUp, nSimulations);
