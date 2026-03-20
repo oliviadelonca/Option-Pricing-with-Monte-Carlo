@@ -3,10 +3,10 @@
 
 class AmericanOption : public Option {
 public:
-    AmericanOption(double S_, double K_, double T_, double r_, double sigma_, bool isCall_); // Constructeur principal
-    AmericanOption(const AmericanOption& other); // Constructeur par copie
-    AmericanOption& operator=(const AmericanOption& other); // Opérateur d'assignation
-    virtual ~AmericanOption(); // Destructeur
+    AmericanOption(double S_, double K_, double T_, double r_, double sigma_, bool isCall_);
+    AmericanOption(const AmericanOption& other); 
+    AmericanOption& operator=(const AmericanOption& other);
+    virtual ~AmericanOption();
 
     virtual double prix() override;
     virtual double delta() override;
