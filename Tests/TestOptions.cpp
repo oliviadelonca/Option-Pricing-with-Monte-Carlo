@@ -68,9 +68,9 @@ int main() {
     double callAmPriceMC = mc.prix(callAm, nSimulations);
     double putAmPriceMC  = mc.prix(putAm, nSimulations);
 
-    std::cout << "\n Tests Monte-Carlo Options Américaines " << std::endl;
-    std::cout << "Call Américain MC: Prix~" << callAmPriceMC << std::endl;
-    std::cout << "Put Américain MC:  Prix~" << putAmPriceMC << std::endl;
+    std::cout << "\n Tests Monte-Carlo American Options " << std::endl;
+    std::cout << "American Call MC: Price~" << callAmPriceMC << std::endl;
+    std::cout << "American Put MC:  Price~" << putAmPriceMC << std::endl;
 
     return 0;
 }
