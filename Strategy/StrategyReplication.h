@@ -1,6 +1,6 @@
 #pragma once
-#include "Option.h"
-#include "BlackScholes.h"
+#include "Options/Option.h"
+#include "BlackScholes/BlackScholes.h"
 
 class StrategyReplication {
 public:
