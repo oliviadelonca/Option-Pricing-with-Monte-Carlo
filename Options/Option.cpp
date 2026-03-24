@@ -1,4 +1,4 @@
-#include "Option.h"
+#include "Options/Option.h"
 
 Option::Option(double S_, double K_, double T_, double r_, double sigma_, bool isCall_) {
     S = S_;
