@@ -1,5 +1,5 @@
-#include "EuropeanOption.h"
-#include "BlackScholes.h"
+#include "Options/EuropeanOption.h"
+#include "BlackScholes/BlackScholes.h"
 
 EuropeanOption::EuropeanOption(double S_, double K_, double T_, double r_, double sigma_, bool isCall_)
     : Option(S_, K_, T_, r_, sigma_, isCall_) {}
