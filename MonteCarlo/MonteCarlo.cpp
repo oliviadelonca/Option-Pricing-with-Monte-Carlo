@@ -1,5 +1,5 @@
-#include "MonteCarlo.h"
-#include "AmericanOption.h"  
+#include "MonteCarlo/MonteCarlo.h"
+#include "Options/AmericanOption.h"  
 #include <random>
 #include <cmath>
 #include <algorithm>
