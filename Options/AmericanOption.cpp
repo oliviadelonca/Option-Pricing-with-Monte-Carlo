@@ -1,5 +1,5 @@
-#include "AmericanOption.h"
-#include "MonteCarlo.h"
+#include "Options/AmericanOption.h"
+#include "MonteCarlo/MonteCarlo.h"
 
 AmericanOption::AmericanOption(double S_, double K_, double T_, double r_, double sigma_, bool isCall_)
     : Option(S_, K_, T_, r_, sigma_, isCall_) {}
