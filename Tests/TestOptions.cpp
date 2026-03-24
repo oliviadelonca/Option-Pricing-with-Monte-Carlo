@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
-#include "EuropeanOption.h"
-#include "AmericanOption.h"
-#include "BlackScholes.h"
-#include "MonteCarlo.h"
+#include "Options/EuropeanOption.h"
+#include "Options/AmericanOption.h"
+#include "BlackScholes/BlackScholes.h"
+#include "MonteCarlo/MonteCarlo.h"
 
 // Function to compare two values with a tolerance of 0.0001
 bool approxEqual(double a, double b, double tol = 1e-4) {
