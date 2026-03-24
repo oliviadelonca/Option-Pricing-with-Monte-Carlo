@@ -3,9 +3,9 @@
 #include <iomanip>
 #include <cmath>
 
-#include "EuropeanOption.h"
-#include "AmericanOption.h"
-#include "StrategyReplication.h"
+#include "Options/EuropeanOption.h"
+#include "Options/AmericanOption.h"
+#include "Strategy/StrategyReplication.h"
 
 int main() {
     // Market parameters
