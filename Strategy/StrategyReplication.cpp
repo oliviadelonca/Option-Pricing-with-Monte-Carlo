@@ -1,4 +1,4 @@
-#include "StrategyReplication.h"
+#include "Strategy/StrategyReplication.h"
 
 double StrategyReplication::delta(const Option& option) {
     return BlackScholes::delta(option);
